@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "org.oneminutescript.fileupload"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "fileupload",
+        "packageName": "org.oneminutescript.fileupload",
+        "packageFolder": "org/oneminutescript/fileupload",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ZmQwNmZjYTNjYjUyNTY0NzcxMWExMTZjNmM1OThlOGExZmQyZWU2MjBiMDlkMGJkODA2YzBiMzNiMmM1OTc3ZmUwMWU5NmFkMGFjZjdiM2E3ZmZmOTNkMzRkNTViMDY1Y2I0NThiZjc3MGI5NWE3NDRlM2IxMjYzZjU1YzI5ZGI=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
