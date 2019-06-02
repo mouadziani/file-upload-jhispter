@@ -89,6 +89,17 @@ public class AccountResource {
     }
 
     /**
+     * GET  /authenticate : check if the user is authenticated, and return its login.
+     *
+     * @param request the HTTP request
+     * @return the login if the user is authenticated
+     */
+    @GetMapping("/upload")
+    public String uploadFile(HttpServletRequest request) {
+        return "Herererere";
+    }
+
+    /**
      * GET  /account : get the current user.
      *
      * @return the current user

@@ -1,0 +1,16 @@
+<button class="btn btn-info" *ngIf='showFile' (click)='showFiles(false)'>Hide Files</button>
+
+<button class="btn btn-info" *ngIf='!showFile' (click)='showFiles(true)'>Show Files</button>
+
+<div [hidden]="!showFile">
+	<div class="card">
+		<div class="card-header">List of files</div>
+		<div class="card-body">
+			<ul class="list-group">
+				<li class="list-group-item" *ngFor="let file of fileUploads | async">
+					<jhi-details-upload [fileUpload]='file'></jhi-details-upload>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

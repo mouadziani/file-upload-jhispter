@@ -38,7 +38,13 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         FileuploadEntityModule,
         FileuploadAppRoutingModule
     ],
-    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
+    declarations: [
+        JhiMainComponent, 
+        NavbarComponent, 
+        ErrorComponent, 
+        PageRibbonComponent, 
+        FooterComponent
+    ],
     providers: [
         {
             provide: HTTP_INTERCEPTORS,
